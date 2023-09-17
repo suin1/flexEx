@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>flexEx7</title>
+    <style>
+        body {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .menu {
+            background-color: rgb(59, 99, 59);
+            list-style: none;
+            display: flex;
+        }
+        .list {
+            width: 20%; height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        .list:hover {
+            background-color: #ddd;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li class="list"><a href="#">Home</a></li>
+        <li class="list"><a href="#">Company</a></li>
+        <li class="list"><a href="#">Service</a></li>
+        <li class="list"><a href="#">Product</a></li>
+        <li class="list"><a href="#">Borad</a></li>
+    </ul>
+</body>
+</html>

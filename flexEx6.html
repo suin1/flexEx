@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>flexEx6</title>
+    <style>
+        body {
+            margin: 0;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        form {
+            display: flex;
+        }
+        .logo {
+            background-color: rgb(87, 150, 29);
+            width: 60px; height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box {
+            background-color: rgb(163, 247, 163);
+            width: 100%;
+            display: flex;
+        }
+        .menu {
+            background-color: rgb(22, 80, 22);
+            color: white;
+            width: 60px; height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text {
+            width: 150px; height: 20px;
+            margin: auto;
+            margin-right: 0;
+            margin-left: 5px;
+        }
+        .search {
+            width: 50px; height: 26px;
+            margin: auto;
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <span class="logo">로고</span>
+        <div class="box">
+            <input type="text" class="text">
+            <button type="search" class="search">검색</button>
+        </div>
+        <span class="menu">메뉴</span>
+    </form>
+</body>
+</html>
